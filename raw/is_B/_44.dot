@@ -1,0 +1,3 @@
+digraph {
+	is_B_INST_693 [label="CALL IS_INTEGER_RANK_51" cost=0]
+}

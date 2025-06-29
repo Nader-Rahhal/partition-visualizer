@@ -1,0 +1,3 @@
+digraph {
+	convex_hull_large_grid_INST_1 [label="CALL RUN_US_LARGE_2" cost=0]
+}

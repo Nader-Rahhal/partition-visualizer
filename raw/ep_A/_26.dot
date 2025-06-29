@@ -1,0 +1,10 @@
+digraph {
+	ep_A_INST_9914 [label=BPERMUTE cost=602]
+	ep_A_INST_9900 [label="-" cost=2022]
+	ep_A_INST_9906 [label=INDEX cost=386]
+	ep_A_INST_9901 [label=MAKE_SEGDES cost=172]
+	ep_A_INST_9900 -> ep_A_INST_9901 [label=2 cost=2]
+	ep_A_INST_9906 -> ep_A_INST_9914 [label=4 cost=4]
+	ep_A_INST_9901 -> ep_A_INST_9906 [label=2 cost=2]
+	ep_A_INST_9901 -> ep_A_INST_9914 [label=2 cost=2]
+}

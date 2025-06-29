@@ -1,0 +1,3 @@
+digraph {
+	is_B_INST_569 [label="CALL INT_STRING_2" cost=0]
+}

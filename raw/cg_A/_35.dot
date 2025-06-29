@@ -1,0 +1,7 @@
+digraph {
+	cg_A_INST_9650 [label=FREAD_BIN cost=0]
+	cg_A_INST_9657 [label=MAKE_SEGDES cost=3998]
+	cg_A_INST_9656 [label=LENGTH cost=0]
+	cg_A_INST_9650 -> cg_A_INST_9656 [label=-1 cost=-1]
+	cg_A_INST_9656 -> cg_A_INST_9657 [label=-1 cost=-1]
+}

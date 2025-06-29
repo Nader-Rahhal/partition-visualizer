@@ -1,0 +1,3 @@
+digraph {
+	convex_hull_large_rmat_INST_89 [label="CALL OPEN_FILE_4" cost=0]
+}

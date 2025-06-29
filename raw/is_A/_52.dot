@@ -1,0 +1,3 @@
+digraph {
+	is_A_INST_1120 [label="CALL FLOAT_STRING_35" cost=0]
+}

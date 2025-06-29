@@ -1,0 +1,7 @@
+digraph {
+	ep_A_INST_6225 [label=FREAD_BIN cost=0]
+	ep_A_INST_6231 [label=LENGTH cost=0]
+	ep_A_INST_6232 [label=MAKE_SEGDES cost=5461]
+	ep_A_INST_6225 -> ep_A_INST_6231 [label=-1 cost=-1]
+	ep_A_INST_6231 -> ep_A_INST_6232 [label=-1 cost=-1]
+}

@@ -1,0 +1,10 @@
+digraph {
+	maximal_independent_set_large_grid_INST_5276 [label="-" cost=2537]
+	maximal_independent_set_large_grid_INST_5290 [label=BPERMUTE cost=989]
+	maximal_independent_set_large_grid_INST_5277 [label=MAKE_SEGDES cost=86]
+	maximal_independent_set_large_grid_INST_5282 [label=INDEX cost=215]
+	maximal_independent_set_large_grid_INST_5276 -> maximal_independent_set_large_grid_INST_5277 [label=1 cost=1]
+	maximal_independent_set_large_grid_INST_5277 -> maximal_independent_set_large_grid_INST_5282 [label=1 cost=1]
+	maximal_independent_set_large_grid_INST_5277 -> maximal_independent_set_large_grid_INST_5290 [label=1 cost=1]
+	maximal_independent_set_large_grid_INST_5282 -> maximal_independent_set_large_grid_INST_5290 [label=2 cost=2]
+}

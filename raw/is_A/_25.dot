@@ -1,0 +1,16 @@
+digraph {
+	is_A_INST_6275 [label="-" cost=0]
+	is_A_INST_6281 [label=INDEX cost=0]
+	is_A_INST_6276 [label=MAKE_SEGDES cost=0]
+	is_A_INST_6289 [label=BPERMUTE cost=0]
+	is_A_INST_1279 [label="+" cost=0]
+	is_A_INST_6270 [label=LENGTHS cost=0]
+	is_A_INST_6275 -> is_A_INST_6276 [label=-1 cost=-1]
+	is_A_INST_6281 -> is_A_INST_6289 [label=-1 cost=-1]
+	is_A_INST_6276 -> is_A_INST_6281 [label=-1 cost=-1]
+	is_A_INST_6276 -> is_A_INST_6289 [label=-1 cost=-1]
+	is_A_INST_1279 -> is_A_INST_6275 [label=-1 cost=-1]
+	is_A_INST_1279 -> is_A_INST_6281 [label=-1 cost=-1]
+	is_A_INST_6270 -> is_A_INST_1279 [label=-1 cost=-1]
+	is_A_INST_6270 -> is_A_INST_6275 [label=-1 cost=-1]
+}

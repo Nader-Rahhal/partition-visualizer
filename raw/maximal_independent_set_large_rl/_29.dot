@@ -1,0 +1,5 @@
+digraph {
+	maximal_independent_set_large_rl_INST_4077 [label="-" cost=86]
+	maximal_independent_set_large_rl_INST_4080 [label=DIST cost=86]
+	maximal_independent_set_large_rl_INST_4077 -> maximal_independent_set_large_rl_INST_4080 [label=1 cost=1]
+}

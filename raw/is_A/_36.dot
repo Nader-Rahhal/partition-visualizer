@@ -1,0 +1,7 @@
+digraph {
+	is_A_INST_1194 [label="\>" cost=2192]
+	is_A_INST_1198 [label=OR cost=817]
+	is_A_INST_1197 [label="\<" cost=903]
+	is_A_INST_1194 -> is_A_INST_1198 [label=2 cost=2]
+	is_A_INST_1197 -> is_A_INST_1198 [label=2 cost=2]
+}

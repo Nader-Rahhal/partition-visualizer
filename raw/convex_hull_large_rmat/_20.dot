@@ -1,0 +1,16 @@
+digraph {
+	convex_hull_large_rmat_INST_5381 [label="-" cost=0]
+	convex_hull_large_rmat_INST_5376 [label=LENGTHS cost=0]
+	convex_hull_large_rmat_INST_5387 [label=INDEX cost=0]
+	convex_hull_large_rmat_INST_991 [label="+" cost=0]
+	convex_hull_large_rmat_INST_5395 [label=BPERMUTE cost=0]
+	convex_hull_large_rmat_INST_5382 [label=MAKE_SEGDES cost=0]
+	convex_hull_large_rmat_INST_5381 -> convex_hull_large_rmat_INST_5382 [label=-1 cost=-1]
+	convex_hull_large_rmat_INST_5376 -> convex_hull_large_rmat_INST_991 [label=-1 cost=-1]
+	convex_hull_large_rmat_INST_5376 -> convex_hull_large_rmat_INST_5381 [label=-1 cost=-1]
+	convex_hull_large_rmat_INST_5387 -> convex_hull_large_rmat_INST_5395 [label=-1 cost=-1]
+	convex_hull_large_rmat_INST_991 -> convex_hull_large_rmat_INST_5381 [label=-1 cost=-1]
+	convex_hull_large_rmat_INST_991 -> convex_hull_large_rmat_INST_5387 [label=-1 cost=-1]
+	convex_hull_large_rmat_INST_5382 -> convex_hull_large_rmat_INST_5387 [label=-1 cost=-1]
+	convex_hull_large_rmat_INST_5382 -> convex_hull_large_rmat_INST_5395 [label=-1 cost=-1]
+}

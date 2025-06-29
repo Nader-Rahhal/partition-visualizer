@@ -1,0 +1,7 @@
+digraph {
+	is_B_INST_704 [label="CALL IS_INTEGER_RANK_51" cost=0]
+	is_B_INST_717 [label="CALL IS_MAIN_LOOP_51" cost=0]
+	is_B_INST_714 [label="+" cost=345]
+	is_B_INST_704 -> is_B_INST_717 [label=-1 cost=-1]
+	is_B_INST_714 -> is_B_INST_717 [label=9 cost=9]
+}

@@ -1,0 +1,7 @@
+digraph {
+	convex_hull_large_rl_INST_3235 [label=FREAD_BIN cost=0]
+	convex_hull_large_rl_INST_3241 [label=LENGTH cost=0]
+	convex_hull_large_rl_INST_3242 [label=MAKE_SEGDES cost=4601]
+	convex_hull_large_rl_INST_3235 -> convex_hull_large_rl_INST_3241 [label=-1 cost=-1]
+	convex_hull_large_rl_INST_3241 -> convex_hull_large_rl_INST_3242 [label=-1 cost=-1]
+}

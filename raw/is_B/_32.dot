@@ -1,0 +1,10 @@
+digraph {
+	is_B_INST_4951 [label="-" cost=43]
+	is_B_INST_4952 [label=MAKE_SEGDES cost=86]
+	is_B_INST_4965 [label=BPERMUTE cost=76014239]
+	is_B_INST_4957 [label=INDEX cost=1462]
+	is_B_INST_4951 -> is_B_INST_4952 [label=1 cost=1]
+	is_B_INST_4952 -> is_B_INST_4957 [label=1 cost=1]
+	is_B_INST_4952 -> is_B_INST_4965 [label=1 cost=1]
+	is_B_INST_4957 -> is_B_INST_4965 [label=33554431 cost=33554431]
+}

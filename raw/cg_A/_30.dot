@@ -1,0 +1,16 @@
+digraph {
+	cg_A_INST_15023 [label=MAKE_SEGDES cost=0]
+	cg_A_INST_15028 [label=INDEX cost=0]
+	cg_A_INST_15022 [label="-" cost=0]
+	cg_A_INST_2932 [label="+" cost=0]
+	cg_A_INST_15017 [label=LENGTHS cost=0]
+	cg_A_INST_15036 [label=BPERMUTE cost=0]
+	cg_A_INST_15023 -> cg_A_INST_15028 [label=-1 cost=-1]
+	cg_A_INST_15023 -> cg_A_INST_15036 [label=-1 cost=-1]
+	cg_A_INST_15028 -> cg_A_INST_15036 [label=-1 cost=-1]
+	cg_A_INST_15022 -> cg_A_INST_15023 [label=-1 cost=-1]
+	cg_A_INST_2932 -> cg_A_INST_15022 [label=-1 cost=-1]
+	cg_A_INST_2932 -> cg_A_INST_15028 [label=-1 cost=-1]
+	cg_A_INST_15017 -> cg_A_INST_2932 [label=-1 cost=-1]
+	cg_A_INST_15017 -> cg_A_INST_15022 [label=-1 cost=-1]
+}

@@ -1,0 +1,7 @@
+digraph {
+	maximal_independent_set_large_rl_INST_4 [label=MAKE_SEGDES cost=16168]
+	maximal_independent_set_large_rl_INST_7 [label=MAKE_SEGDES cost=258]
+	maximal_independent_set_large_rl_INST_9 [label="CALL RUN_MIS_4" cost=0]
+	maximal_independent_set_large_rl_INST_4 -> maximal_independent_set_large_rl_INST_9 [label=1 cost=1]
+	maximal_independent_set_large_rl_INST_7 -> maximal_independent_set_large_rl_INST_9 [label=1 cost=1]
+}

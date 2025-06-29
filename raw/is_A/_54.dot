@@ -1,0 +1,3 @@
+digraph {
+	is_A_INST_1 [label="CALL IS_A_2" cost=0]
+}

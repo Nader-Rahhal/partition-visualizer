@@ -1,0 +1,11 @@
+digraph {
+	is_B_INST_90 [label=RSHIFT cost=1677]
+	is_B_INST_98 [label="*" cost=645]
+	is_B_INST_91 [label="CALL POWER-INTERNAL_4" cost=0]
+	is_B_INST_103 [label="*" cost=172]
+	is_B_INST_104 [label="*" cost=86]
+	is_B_INST_90 -> is_B_INST_91 [label=4 cost=4]
+	is_B_INST_91 -> is_B_INST_98 [label=-1 cost=-1]
+	is_B_INST_91 -> is_B_INST_103 [label=-1 cost=-1]
+	is_B_INST_103 -> is_B_INST_104 [label=2 cost=2]
+}

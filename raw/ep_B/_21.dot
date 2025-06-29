@@ -1,0 +1,15 @@
+digraph {
+	ep_B_INST_671 [label="-" cost=43]
+	ep_B_INST_675 [label=AND cost=645]
+	ep_B_INST_665 [label="-" cost=516]
+	ep_B_INST_672 [label=ABS cost=43]
+	ep_B_INST_674 [label="\<" cost=215]
+	ep_B_INST_668 [label="\<" cost=3096]
+	ep_B_INST_666 [label=ABS cost=430]
+	ep_B_INST_671 -> ep_B_INST_672 [label=1 cost=1]
+	ep_B_INST_665 -> ep_B_INST_666 [label=1 cost=1]
+	ep_B_INST_672 -> ep_B_INST_674 [label=1 cost=1]
+	ep_B_INST_674 -> ep_B_INST_675 [label=1 cost=1]
+	ep_B_INST_668 -> ep_B_INST_675 [label=1 cost=1]
+	ep_B_INST_666 -> ep_B_INST_668 [label=1 cost=1]
+}

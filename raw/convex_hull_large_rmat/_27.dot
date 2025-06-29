@@ -1,0 +1,5 @@
+digraph {
+	convex_hull_large_rmat_INST_7 [label="CALL RUN_HULL_4" cost=0]
+	convex_hull_large_rmat_INST_4 [label=MAKE_SEGDES cost=12212]
+	convex_hull_large_rmat_INST_4 -> convex_hull_large_rmat_INST_7 [label=1 cost=1]
+}

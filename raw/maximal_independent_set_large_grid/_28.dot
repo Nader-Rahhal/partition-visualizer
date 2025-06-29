@@ -1,0 +1,7 @@
+digraph {
+	maximal_independent_set_large_grid_INST_2821 [label=MAKE_SEGDES cost=129]
+	maximal_independent_set_large_grid_INST_2820 [label=LENGTH cost=0]
+	maximal_independent_set_large_grid_INST_68 [label="CALL READ_OBJECT_FROM_BINARY_FILE_6" cost=0]
+	maximal_independent_set_large_grid_INST_2820 -> maximal_independent_set_large_grid_INST_2821 [label=-1 cost=-1]
+	maximal_independent_set_large_grid_INST_68 -> maximal_independent_set_large_grid_INST_2820 [label=-1 cost=-1]
+}

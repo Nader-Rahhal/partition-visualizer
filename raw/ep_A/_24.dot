@@ -1,0 +1,11 @@
+digraph {
+	ep_A_INST_634 [label=RSHIFT cost=1807]
+	ep_A_INST_647 [label="*" cost=0]
+	ep_A_INST_648 [label="*" cost=0]
+	ep_A_INST_642 [label="*" cost=602]
+	ep_A_INST_635 [label="CALL POWER-INTERNAL_27" cost=0]
+	ep_A_INST_634 -> ep_A_INST_635 [label=3 cost=3]
+	ep_A_INST_647 -> ep_A_INST_648 [label=-1 cost=-1]
+	ep_A_INST_635 -> ep_A_INST_642 [label=-1 cost=-1]
+	ep_A_INST_635 -> ep_A_INST_647 [label=-1 cost=-1]
+}

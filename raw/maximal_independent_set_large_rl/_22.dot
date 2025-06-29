@@ -1,0 +1,16 @@
+digraph {
+	maximal_independent_set_large_rl_INST_5311 [label=BPERMUTE cost=0]
+	maximal_independent_set_large_rl_INST_5303 [label=INDEX cost=0]
+	maximal_independent_set_large_rl_INST_5292 [label=LENGTHS cost=0]
+	maximal_independent_set_large_rl_INST_5297 [label="-" cost=0]
+	maximal_independent_set_large_rl_INST_5298 [label=MAKE_SEGDES cost=0]
+	maximal_independent_set_large_rl_INST_1247 [label="+" cost=0]
+	maximal_independent_set_large_rl_INST_5303 -> maximal_independent_set_large_rl_INST_5311 [label=-1 cost=-1]
+	maximal_independent_set_large_rl_INST_5292 -> maximal_independent_set_large_rl_INST_1247 [label=-1 cost=-1]
+	maximal_independent_set_large_rl_INST_5292 -> maximal_independent_set_large_rl_INST_5297 [label=-1 cost=-1]
+	maximal_independent_set_large_rl_INST_5297 -> maximal_independent_set_large_rl_INST_5298 [label=-1 cost=-1]
+	maximal_independent_set_large_rl_INST_5298 -> maximal_independent_set_large_rl_INST_5303 [label=-1 cost=-1]
+	maximal_independent_set_large_rl_INST_5298 -> maximal_independent_set_large_rl_INST_5311 [label=-1 cost=-1]
+	maximal_independent_set_large_rl_INST_1247 -> maximal_independent_set_large_rl_INST_5297 [label=-1 cost=-1]
+	maximal_independent_set_large_rl_INST_1247 -> maximal_independent_set_large_rl_INST_5303 [label=-1 cost=-1]
+}

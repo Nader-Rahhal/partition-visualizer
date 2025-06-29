@@ -1,0 +1,3 @@
+digraph {
+	ep_B_INST_1174 [label="CALL SCALAR_STRING_2" cost=0]
+}

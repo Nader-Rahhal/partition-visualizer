@@ -1,0 +1,3 @@
+digraph {
+	maximal_independent_set_large_rmat_INST_1084 [label="CALL STRING_27" cost=0]
+}

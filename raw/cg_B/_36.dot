@@ -1,0 +1,7 @@
+digraph {
+	cg_B_INST_2847 [label="\>" cost=20189]
+	cg_B_INST_2850 [label="\<" cost=23791]
+	cg_B_INST_2851 [label=OR cost=40007]
+	cg_B_INST_2847 -> cg_B_INST_2851 [label=157 cost=157]
+	cg_B_INST_2850 -> cg_B_INST_2851 [label=157 cost=157]
+}

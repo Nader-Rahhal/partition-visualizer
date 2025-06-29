@@ -1,0 +1,9 @@
+digraph {
+	ep_A_INST_4 [label=MAKE_SEGDES cost=15738]
+	ep_A_INST_10 [label="CALL RUN_EP_6" cost=0]
+	ep_A_INST_3868 [label="-" cost=86]
+	ep_A_INST_3865 [label="-" cost=5160]
+	ep_A_INST_4 -> ep_A_INST_10 [label=1 cost=1]
+	ep_A_INST_3868 -> ep_A_INST_10 [label=1 cost=1]
+	ep_A_INST_3865 -> ep_A_INST_10 [label=1 cost=1]
+}

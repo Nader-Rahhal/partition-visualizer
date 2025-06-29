@@ -1,0 +1,3 @@
+digraph {
+	cg_B_INST_2773 [label="CALL FLOAT_STRING_28" cost=0]
+}

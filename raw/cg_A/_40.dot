@@ -1,0 +1,5 @@
+digraph {
+	cg_A_INST_4 [label="CALL CG_4" cost=0]
+	cg_A_INST_8063 [label=MAKE_SEGDES cost=17716]
+	cg_A_INST_8063 -> cg_A_INST_4 [label=1 cost=1]
+}

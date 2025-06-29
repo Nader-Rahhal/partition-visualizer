@@ -1,0 +1,10 @@
+digraph {
+	convex_hull_large_rl_INST_5361 [label=MAKE_SEGDES cost=86]
+	convex_hull_large_rl_INST_5374 [label=BPERMUTE cost=860]
+	convex_hull_large_rl_INST_5366 [label=INDEX cost=258]
+	convex_hull_large_rl_INST_5360 [label="-" cost=2150]
+	convex_hull_large_rl_INST_5361 -> convex_hull_large_rl_INST_5366 [label=1 cost=1]
+	convex_hull_large_rl_INST_5361 -> convex_hull_large_rl_INST_5374 [label=1 cost=1]
+	convex_hull_large_rl_INST_5366 -> convex_hull_large_rl_INST_5374 [label=1 cost=1]
+	convex_hull_large_rl_INST_5360 -> convex_hull_large_rl_INST_5361 [label=1 cost=1]
+}

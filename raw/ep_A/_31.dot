@@ -1,0 +1,5 @@
+digraph {
+	ep_A_INST_6707 [label="=" cost=299]
+	ep_A_INST_6705 [label=AND cost=560]
+	ep_A_INST_6705 -> ep_A_INST_6707 [label=3 cost=3]
+}

@@ -1,0 +1,7 @@
+digraph {
+	maximal_independent_set_large_rmat_INST_3135 [label=FREAD_BIN cost=0]
+	maximal_independent_set_large_rmat_INST_3142 [label=MAKE_SEGDES cost=6321]
+	maximal_independent_set_large_rmat_INST_3141 [label=LENGTH cost=0]
+	maximal_independent_set_large_rmat_INST_3135 -> maximal_independent_set_large_rmat_INST_3141 [label=-1 cost=-1]
+	maximal_independent_set_large_rmat_INST_3141 -> maximal_independent_set_large_rmat_INST_3142 [label=-1 cost=-1]
+}

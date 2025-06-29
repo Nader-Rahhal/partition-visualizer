@@ -1,0 +1,3 @@
+digraph {
+	convex_hull_large_grid_INST_843 [label="CALL DROP_4" cost=0]
+}

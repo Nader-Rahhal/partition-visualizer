@@ -1,0 +1,3 @@
+digraph {
+	convex_hull_large_rmat_INST_743 [label="CALL STRING_25" cost=0]
+}

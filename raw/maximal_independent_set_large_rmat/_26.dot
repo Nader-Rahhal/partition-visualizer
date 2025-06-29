@@ -1,0 +1,7 @@
+digraph {
+	maximal_independent_set_large_rmat_INST_1166 [label=OR cost=645]
+	maximal_independent_set_large_rmat_INST_1165 [label="\<" cost=860]
+	maximal_independent_set_large_rmat_INST_1162 [label="\>" cost=258]
+	maximal_independent_set_large_rmat_INST_1165 -> maximal_independent_set_large_rmat_INST_1166 [label=1 cost=1]
+	maximal_independent_set_large_rmat_INST_1162 -> maximal_independent_set_large_rmat_INST_1166 [label=1 cost=1]
+}

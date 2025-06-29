@@ -1,0 +1,7 @@
+digraph {
+	convex_hull_large_rl_INST_825 [label=OR cost=602]
+	convex_hull_large_rl_INST_821 [label="\>" cost=258]
+	convex_hull_large_rl_INST_824 [label="\<" cost=301]
+	convex_hull_large_rl_INST_821 -> convex_hull_large_rl_INST_825 [label=1 cost=1]
+	convex_hull_large_rl_INST_824 -> convex_hull_large_rl_INST_825 [label=1 cost=1]
+}

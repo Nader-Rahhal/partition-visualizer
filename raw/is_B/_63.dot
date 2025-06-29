@@ -1,0 +1,3 @@
+digraph {
+	is_B_INST_1211 [label="CALL DROP_20" cost=0]
+}

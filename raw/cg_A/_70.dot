@@ -1,0 +1,3 @@
+digraph {
+	cg_A_INST_2771 [label="CALL SCALAR_STRING_28" cost=0]
+}

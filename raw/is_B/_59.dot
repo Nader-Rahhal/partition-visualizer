@@ -1,0 +1,3 @@
+digraph {
+	is_B_INST_74 [label="CALL POWER-INTERNAL_4" cost=0]
+}

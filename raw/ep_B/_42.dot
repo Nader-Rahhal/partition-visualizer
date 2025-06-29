@@ -1,0 +1,3 @@
+digraph {
+	ep_B_INST_1 [label="CALL EP_B_2" cost=0]
+}

@@ -1,0 +1,14 @@
+digraph {
+	cg_A_INST_613 [label=LENGTHS cost=26058]
+	cg_A_INST_611 [label="CALL INT_COLLECT_85" cost=0]
+	cg_A_INST_605 [label="CALL INT_COLLECT_42" cost=0]
+	cg_A_INST_616 [label=MAKE_SEGDES cost=645]
+	cg_A_INST_615 [label="+_REDUCE" cost=3784]
+	cg_A_INST_623 [label="+_REDUCE" cost=5671528]
+	cg_A_INST_613 -> cg_A_INST_615 [label=14000 cost=14000]
+	cg_A_INST_611 -> cg_A_INST_613 [label=-1 cost=-1]
+	cg_A_INST_611 -> cg_A_INST_623 [label=-1 cost=-1]
+	cg_A_INST_605 -> cg_A_INST_611 [label=-1 cost=-1]
+	cg_A_INST_605 -> cg_A_INST_615 [label=-1 cost=-1]
+	cg_A_INST_615 -> cg_A_INST_616 [label=1 cost=1]
+}

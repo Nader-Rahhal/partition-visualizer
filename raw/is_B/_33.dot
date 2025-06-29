@@ -1,0 +1,7 @@
+digraph {
+	is_B_INST_4145 [label=LENGTH cost=0]
+	is_B_INST_4146 [label=MAKE_SEGDES cost=7912]
+	is_B_INST_4139 [label=FREAD_BIN cost=0]
+	is_B_INST_4145 -> is_B_INST_4146 [label=-1 cost=-1]
+	is_B_INST_4139 -> is_B_INST_4145 [label=-1 cost=-1]
+}

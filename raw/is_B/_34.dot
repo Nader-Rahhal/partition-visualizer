@@ -1,0 +1,7 @@
+digraph {
+	is_B_INST_3824 [label=LENGTH cost=0]
+	is_B_INST_255 [label="CALL READ_OBJECT_FROM_BINARY_FILE_19" cost=0]
+	is_B_INST_3825 [label=MAKE_SEGDES cost=2408]
+	is_B_INST_3824 -> is_B_INST_3825 [label=-1 cost=-1]
+	is_B_INST_255 -> is_B_INST_3824 [label=-1 cost=-1]
+}

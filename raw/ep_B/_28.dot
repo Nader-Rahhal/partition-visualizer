@@ -1,0 +1,7 @@
+digraph {
+	ep_B_INST_1423 [label="\<" cost=344]
+	ep_B_INST_1424 [label=OR cost=774]
+	ep_B_INST_1420 [label="\>" cost=172]
+	ep_B_INST_1423 -> ep_B_INST_1424 [label=2 cost=2]
+	ep_B_INST_1420 -> ep_B_INST_1424 [label=2 cost=2]
+}

@@ -1,0 +1,14 @@
+digraph {
+	ep_B_INST_9965 [label=INDEX cost=0]
+	ep_B_INST_1549 [label="+" cost=0]
+	ep_B_INST_9960 [label=MAKE_SEGDES cost=0]
+	ep_B_INST_9959 [label="-" cost=0]
+	ep_B_INST_9973 [label=BPERMUTE cost=0]
+	ep_B_INST_9954 [label=LENGTHS cost=0]
+	ep_B_INST_9965 -> ep_B_INST_9973 [label=-1 cost=-1]
+	ep_B_INST_1549 -> ep_B_INST_9959 [label=-1 cost=-1]
+	ep_B_INST_9960 -> ep_B_INST_9965 [label=-1 cost=-1]
+	ep_B_INST_9960 -> ep_B_INST_9973 [label=-1 cost=-1]
+	ep_B_INST_9959 -> ep_B_INST_9960 [label=-1 cost=-1]
+	ep_B_INST_9954 -> ep_B_INST_1549 [label=-1 cost=-1]
+}
