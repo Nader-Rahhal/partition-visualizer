@@ -1,4 +1,5 @@
 clean:
 	rm -rf graph
-	rm -rf dot_output/*
+	rm -rf scotch
+	rm -rf dot_output
 

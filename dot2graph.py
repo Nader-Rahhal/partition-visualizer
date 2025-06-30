@@ -8,7 +8,6 @@ parser.add_argument("dot_input", help="Path to input DOT file")
 parser.add_argument("graph_output", help="Path to output METIS .graph file")
 args = parser.parse_args()
 
-# === LOAD DOT GRAPH ===
 graph, = pydot.graph_from_dot_file(args.dot_input)
 
 node_weights = {}
@@ -25,14 +24,12 @@ def get_node_id(name):
         next_id += 1
     return node_to_id[name]
 
-# Handle node weights
 for node in graph.get_nodes():
     name = node.get_name().strip('"')
     node_id = get_node_id(name)
     weight = node.get("cost")
     node_weights[node_id] = weight if weight is not None else "1"
 
-# Handle edges (undirected)
 for edge in graph.get_edges():
     src = get_node_id(edge.get_source().strip('"'))
     dst = get_node_id(edge.get_destination().strip('"'))
@@ -44,7 +41,6 @@ for node_id in range(1, next_id):
     if node_id not in node_weights:
         node_weights[node_id] = "1"
 
-# Write METIS graph file
 with open(args.graph_output, "w") as f:
     num_nodes = next_id - 1
     num_edges = sum(len(neighbors) for neighbors in adj.values()) // 2
@@ -60,7 +56,6 @@ with open(args.graph_output, "w") as f:
 
 print(f"[✓] METIS graph file written to {args.graph_output}")
 
-# Write mapping file
 mapping_path = args.graph_output + ".mapping.json"
 with open(mapping_path, "w") as mapfile:
     json.dump(id_to_node, mapfile)

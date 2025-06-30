@@ -10,7 +10,6 @@ if len(sys.argv) != 2:
 
 dot_path = sys.argv[1]
 
-# === Load DOT ===
 try:
     pydot_graph = pydot.graph_from_dot_file(dot_path)[0]
     G = from_pydot(pydot_graph)
@@ -27,7 +26,7 @@ if not nx.is_directed_acyclic_graph(G):
     print("[!] The input graph is not a DAG.")
     sys.exit(1)
 
-# === Node Weights ===
+
 node_weights = {}
 for node in G.nodes:
     cost_attr = G.nodes[node].get("cost")
@@ -39,13 +38,12 @@ for node in G.nodes:
 for node, weight in node_weights.items():
     G.nodes[node]["weight"] = weight
 
-# === Metrics ===
+
 work = sum(node_weights.values())
 
-# Compute critical path using node weights (ignore edge weights)
 try:
     def weight_func(u, v, d):
-        return node_weights[u]  # weight of source node
+        return node_weights[u]
 
     critical_path = nx.dag_longest_path(G, weight=weight_func)
     span = sum(node_weights[n] for n in critical_path)
