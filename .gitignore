@@ -3,3 +3,4 @@
 *.graph
 *.graph.mapping.json
 *.graph.part.*
+k.py
