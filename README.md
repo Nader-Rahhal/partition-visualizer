@@ -77,3 +77,10 @@ Three graphs will be shown:
 - Communication Volume vs. Partitions
 - Imbalance Ratio vs. Partitions
 
+## Analyzing Parallelism
+
+Use the `analyze/analyze_parallelism.py` script to analyze the potential for parallelism in a program represented by a DAG:
+
+```bash
+python3 analyze/analyze_parallelism.py path/to/dotfile
+```
