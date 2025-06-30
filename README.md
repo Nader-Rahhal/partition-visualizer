@@ -1,4 +1,4 @@
-# METIS Graph Partitioning and Visualization
+# METIS/SCOTCH Graph Partitioning and Visualization
 
 This project provides a Python-based workflow for partitioning weighted graphs in DOT format using METIS and SCOTCH and visualizing the results. Nodes are color-coded by partition, and optional analysis tools allow exploration of edge cuts, communication volume, and partition imbalance across multiple partition counts.
 
